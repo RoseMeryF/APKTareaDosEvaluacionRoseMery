@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TiendaOnline</string>
+    <string name="etemail">Ingresa tu correo</string>
+    <string name="etpass">Ingresa tu contraseña</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="btnlogin">Iniciar Sesión</string>
+    <string name="btnregistrarse">Registrarse</string>
+    <string name="txtTitle">¡Bienvenido a nuestra App!</string>
+    <string name="txtSubtitle">Un lugar donde podrás encontrar todo lo que buscas</string>
+    <string name="btnregistrarBD">Registrarse</string>
+    <string name="etuser">Ingresa un correo</string>
+    <string name="etpass1">Ingresa una contraseña</string>
+    <string name="etpass2">Repite tu contraseña</string>
+    <string name="et_producto">Producto: </string>
+    <string name="et_descripcion">Descripcion: </string>
+    <string name="et_precio">Precio: </string>
+    <string name="btn_salir">Salir</string>
+</resources>

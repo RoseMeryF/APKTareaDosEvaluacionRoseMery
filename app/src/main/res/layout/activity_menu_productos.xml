@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuProductos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@mipmap/itemsbk"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_insertar"
+            android:layout_width="169dp"
+            android:layout_height="289dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:gravity="center"
+            app:icon="@drawable/sumarcarrito"
+            app:iconSize="128dp"
+            app:iconTint="#E89A25" />
+
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
